@@ -1,11 +1,10 @@
 .profile_card {
     border-radius: 25px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
-    height: 650px;
+    height: 500px;
     transition: all 0.3s;
     overflow: hidden;
-    width: 480px;
-      font-family: "Stack Sans Headline", sans-serif;
+    font-family: "Stack Sans Headline", sans-serif;
 
 }
 
@@ -42,9 +41,14 @@
 
 /* Fonts */
 
-.stack-sans-headline {
-  font-family: "Stack Sans Headline", sans-serif;
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: weight>;
   font-style: normal;
+}
+
+.description {
+    font-size: 0.925rem;
 }
