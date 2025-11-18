@@ -9,4 +9,14 @@
 .Title {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.description {
+    font-size: 0.925rem;
+}
+
+.tech {
+    font-size: 0.725rem;
+    margin-bottom: 0.5rem;
 }

@@ -20,4 +20,3 @@ function Profile ({screenshot, name, link, techUsed, writeUp}) { //Needs a capit
 }
 
 export default Profile; //This only lets me export one function per file
-//<p className="repo_link">{href}</p>
