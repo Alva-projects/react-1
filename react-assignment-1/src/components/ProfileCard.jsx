@@ -9,12 +9,15 @@ function ProfileCard () {
         <>
         <h2 className="Title">Portfolio</h2>
         <div className="ProfileCard">
-            <Profile screenshot={screenshotBhromaon} name={"Bhromaon"} repo={"https://github.com/Alva-projects/bhromaon.git"} techUsed= {"This project was created with a time limit using HTML and CSS5."} writeUp= {"The project initially did not go as i planned it too. I tried to create all of the home page rather than only having time to create one part leaving the othe parts blank. It was a good challange wich made me practice prioritizing."}/>
-            <Profile screenshot={screenshotRecepies} name={"Recepies"} repo={"https://github.com/Alva-projects/assignment-7.version1.0.git"} techUsed= {"Describe"} writeUp= {"Lorem ipsum"}/>
-            <Profile screenshot={screenshotDJ} name={"DJ"} repo={"https://github.com/MPLarsson/Group-Project.git"} techUsed= {"Describe"} writeUp= {"Lorem ipsum"}/>
-        </div>
+            <Profile screenshot={screenshotBhromaon} name={"Bhromaon"} link={"https://github.com/Alva-projects/bhromaon.git"} techUsed= {"This project was created with a time limit using HTML and CSS5."} writeUp= {"The project initially did not go as i planned it too. I tried to create all of the home page rather than only having time to create one part leaving the othe parts blank. It was a good challange wich made me practice prioritizing."}/>
+            <Profile screenshot={screenshotRecepies} name={"Recepies"} link={"https://github.com/Alva-projects/assignment-7.version1.0.git"} techUsed= {"Media queries were used to make the website dynamic."} writeUp= {"This was my first responsive website which was a good challange."}/>
+            <Profile screenshot={screenshotDJ} name={"DJ"} link={"https://github.com/MPLarsson/Group-Project.git"} techUsed= {"The gallery is created using a grid"} writeUp= {"I created the Gallery page for this project."}/>
+
+</div>
         </>
     )
 }
 
 export default ProfileCard;
+
+        
