@@ -5,6 +5,8 @@
     transition: all 0.3s;
     overflow: hidden;
     width: 480px;
+      font-family: "Stack Sans Headline", sans-serif;
+
 }
 
 .info {
@@ -36,4 +38,13 @@
 
 .link:hover {
     color: blue;
+}
+
+/* Fonts */
+
+.stack-sans-headline {
+  font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
