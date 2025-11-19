@@ -1,4 +1,4 @@
-import "./Profile.css"
+import "./styles/Profile.css"
 // import { href } from react-router-dom;
 
 
