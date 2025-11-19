@@ -4,9 +4,16 @@
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .navbar-items a{
     margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-items a:hover {
+    color: rgb(75, 138, 227);
 }
