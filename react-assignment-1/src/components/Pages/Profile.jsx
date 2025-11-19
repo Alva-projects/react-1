@@ -1,4 +1,4 @@
-import "./styles/Profile.css"
+import "../styles/Profile.css"
 // import { href } from react-router-dom;
 
 
@@ -16,7 +16,6 @@ function Profile ({screenshot, name, link, techUsed, writeUp}) { //Needs a capit
             </div>
         </>
     )
-
 }
 
 export default Profile; //This only lets me export one function per file

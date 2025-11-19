@@ -1,0 +1,12 @@
+.logo {
+    width: 200px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items a{
+    margin-right: 30px;
+}
