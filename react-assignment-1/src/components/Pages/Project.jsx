@@ -1,7 +1,5 @@
 import "../styles/Project.css";
-import screenshotBhromaon from "../../assets/ScreenshotBhromaon.png";
-import screenshotRecepies from "../../assets/Screenshot_recipies.png"; 
-import screenshotDJ from "../../assets/Screenshot_DJ.png";
+
 
 function Project ({screenshot, name, link, techUsed, writeUp}) {
     return(
@@ -15,7 +13,7 @@ function Project ({screenshot, name, link, techUsed, writeUp}) {
                     <p className="description">{writeUp}</p>
                 </div>
             </div>
-            </>
+        </>
     )
 }
 

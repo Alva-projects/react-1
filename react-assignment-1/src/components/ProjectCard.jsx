@@ -1,4 +1,7 @@
 import "./styles/Card.css";
+import screenshotBhromaon from "../../assets/ScreenshotBhromaon.png";
+import screenshotRecepies from "../../assets/Screenshot_recipies.png"; 
+import screenshotDJ from "../../assets/Screenshot_DJ.png";ss
 
 function ProjectCard () {
     return(
