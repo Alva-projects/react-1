@@ -1,21 +1,20 @@
-// import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Navbar from "./Navbar.jsx";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./Pages/Home.jsx";
+import Project from "./Pages/Project.jsx";
 import Contact from "./Pages/Contact.jsx";
-import ProfileCard from "./ProfileCard.jsx";
-// import PopupWindow from "./PopupWindow.jsx";
-// <PopupWindow/>
 
-
-function App() { //This is a React component. They are like parent functions, so I can make new functions inside of it.
+function App() {
     return(
         <>
-            <Navbar/>
-            <Home/>
-            <Contact/>
-            <ProfileCard/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={Home}/>
+                    <Route path="/project" element={Project}/>
+                    <Route path="/contact" element={Contact}/>
+                </Routes>
+            </BrowserRouter>
         </>
-        //Save data as array
+
     )
 }
 

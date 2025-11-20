@@ -1,8 +1,9 @@
-import "../styles/Profile.css"
-// import { href } from react-router-dom;
+import "../styles/Project.css";
+import screenshotBhromaon from "../../assets/ScreenshotBhromaon.png";
+import screenshotRecepies from "../../assets/Screenshot_recipies.png"; 
+import screenshotDJ from "../../assets/Screenshot_DJ.png";
 
-
-function Profile ({screenshot, name, link, techUsed, writeUp}) { //Needs a capital letter to start
+function Project ({screenshot, name, link, techUsed, writeUp}) {
     return(
         <>
             <div className="profile_card">
@@ -14,8 +15,8 @@ function Profile ({screenshot, name, link, techUsed, writeUp}) { //Needs a capit
                     <p className="description">{writeUp}</p>
                 </div>
             </div>
-        </>
+            </>
     )
 }
 
-export default Profile; //This only lets me export one function per file
+export default Project;
